@@ -24,3 +24,11 @@
     top: 0px;
     right: 0px;
 }
+
+.bottom {
+    margin-top: 50px;
+    justify-content: space-between;
+    display: flex;
+    background-color: yellow;
+    height: 100px;
+}
