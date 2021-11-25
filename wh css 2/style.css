@@ -1,0 +1,40 @@
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    width: 200px;
+    height: 200px;
+    background-color: lightgrey;
+    position: relative;
+}
+
+.rechts {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    position: relative;
+}
+
+.body {
+    margin: 0px;
+}
+
+.orangel {
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.oranger {
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
