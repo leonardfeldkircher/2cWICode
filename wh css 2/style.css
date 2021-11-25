@@ -17,10 +17,6 @@
     position: relative;
 }
 
-.body {
-    margin: 0px;
-}
-
 .orangel {
     height: 50px;
     width: 50px;
@@ -37,4 +33,22 @@
     position: absolute;
     bottom: 0px;
     left: 0px;
+}
+
+.rightbottom {
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.right {
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
