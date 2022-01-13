@@ -1,0 +1,35 @@
+.box {
+    background-color: red;
+    position: relative;
+    width: 460px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.inbox {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.rightbottom {
+    position: absolute;
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.top {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+    height: 100px;
+    margin: 0px;
+}
