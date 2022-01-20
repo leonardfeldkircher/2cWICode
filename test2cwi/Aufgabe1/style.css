@@ -1,0 +1,81 @@
+.background {
+    justify-content: space-between;
+    display: flex;
+    margin-right: 50px;
+}
+
+.box1 {
+    background-color: orange;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.box2 {
+    background-color: orange;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.inbox1 {
+    background-color: lightblue;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.inbox2 {
+    background-color: lightblue;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.bottom {
+    display: flex;
+    margin-top: 100px;
+    margin-right: 15px;
+    margin-left: 15px;
+    height: 100px;
+    background-color: lightgray;
+    justify-content: space-evenly;
+}
+
+.boxbottom1 {
+    height: 50px;
+    width: 50px;
+    background-color: violet;
+    margin-top: 20px;
+}
+
+.boxbottom2 {
+    height: 50px;
+    width: 50px;
+    background-color: violet;
+    margin-top: 20px;
+}
+
+.boxbottom3 {
+    height: 50px;
+    width: 50px;
+    background-color: violet;
+    margin-top: 20px;
+}
+
+.rightbottom {
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
