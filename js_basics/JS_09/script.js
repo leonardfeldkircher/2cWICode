@@ -1,24 +1,40 @@
-console.log("Example08");
-let random = Math.random(0) * 5;
-let randomAsInteger = Math.round(random) + 5;
-console.log(randomAsInteger);
+let output = "";
+let X = true;
+
+for (let index = 0; index < 20; index++) {
+    if (index%4 == 0) {
+        console.log(output);
+        output = "";
+
+        if (X == true) {
+            X = false;
+        }
+        else {
+            X = true;
+        }
+    }
+        if (X == true) {
+            output = output + "X";
+        }
+        else {
+            output = output + "0";
+        }
+}   
+
+var sum = 0;
+
+    for (let index = 0; index < 100; index++) { 
+        if (index % 2 == 0) { 
+            sum += index;
+        }
+    }
 
 
-if (randomAsInteger == 10) {
-    console.log("Ten");
-}
-else if (randomAsInteger == 9) {
-    console.log("Nine");
-}
-else if (randomAsInteger == 8) {
-    console.log("Eight");
-}
-else if (randomAsInteger == 7) {
-    console.log("Seven");
-}
-else if (randomAsInteger == 6) {
-    console.log("Six");
-}
-else {
-    console.log("Five");
+console.log(sum);
+
+for (let = 1; index < 16; index++) {
+    if (index%4 == 0 ) {
+         
+    }
+    
 }
