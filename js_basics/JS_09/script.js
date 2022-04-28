@@ -31,10 +31,3 @@ var sum = 0;
 
 
 console.log(sum);
-
-for (let = 1; index < 16; index++) {
-    if (index%4 == 0 ) {
-         
-    }
-    
-}
